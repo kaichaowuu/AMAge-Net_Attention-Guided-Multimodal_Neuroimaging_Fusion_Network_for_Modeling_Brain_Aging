@@ -4,7 +4,7 @@
 
 This repository contains the official implementation of **AMAge-Net**, proposed in:  
 
-> Zhuo Wan, Kaichao Wu, *et al.*  
+> Zhuo Wan, Wanxiang Fu,Javed Hossain, Kaichao Wu, *et al.*  
 > Attention-Guided Multimodal Neuroimaging Fusion Network for Modeling Brain Aging Pattern* (under review).  
 
 ---
