@@ -4,9 +4,9 @@
 
 This repository contains the official implementation of **AMAge-Net**, proposed in:  
 
-> Zhuo Wan, Wanxiang Fu, Javed Hossain,Leonardo L. Gollo and Kaichao Wu
+> Zhuo Wan, Wanxiang Fu, Javed Hossain, Leonardo L. Gollo, and Kaichao Wu*
 > 
-> Attention-Guided Multimodal Neuroimaging Fusion Network for Modeling Brain Aging Pattern* (under review).  
+> Attention-Guided Multimodal Neuroimaging Fusion Network for Modeling Brain Aging Pattern (under review).  
 
 ---
 
@@ -23,3 +23,44 @@ Brain age estimation has emerged as a promising biomarker for characterizing ind
 
 
 <img width="3492" height="1884" alt="model" src="https://github.com/user-attachments/assets/8141d5bf-bd1c-4b5f-b87b-93fb4f1667ed" /># AMAge-Net_Attention-Guided-Multimodal_Neuroimaging_Fusion_Network_for_Modeling_Brain_Aging-Pattern
+
+---
+## 📁 Repository Structure
+
+```text
+.
+├── train.py
+├── inference.py
+├── model.py
+├── dataset.py
+├── config.py
+│
+├── Utils/
+│   ├── average_saliency.py
+│   ├── combine.py
+│   ├── f_global.py
+│   ├── s_global.py
+│   └── utils.py
+│
+└── Comparison/
+    ├── GCN/
+    ├── GAT/
+    ├── BrainGNN/
+    ├── CNN_2D/
+    ├── CNN_3D/
+    ├── ResNet3D/
+    ├── EfficientNet/
+    ├── Transformer/
+    └── CTransfer/
+```
+## 🔹 Core scripts
+
+train.py      ----Main training script for model optimization, validation, and checkpoint saving.
+
+inference.py  ----Inference and evaluation script for trained models.
+
+model.py      ---- Definition of the proposed model architecture and forward computation.
+
+dataset.py    ---- Dataset loading and preprocessing utilities.
+
+config.py     ---- Configuration file for hyperparameters, paths, and experiment settings.
